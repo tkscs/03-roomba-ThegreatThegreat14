@@ -12,13 +12,98 @@ import room
 speed(7)
 
 # Draw the Level 4 version of the room
-window = room.draw_room(level = 4, n_alcoves = 1)
+window = room.draw_room(level = 4, n_alcoves = 1, radius = 5)
 
 ###
 # Start your code here
  
- 
- 
+for i in range (3):
+    forward(40)
+    right(90)
+    forward(3*40)
+    left(90)
+    forward(40)
+    right(90)
+    forward(40)
+    left(90)
+    forward(3*40)
+    right(90)
+    forward(40)
+    right(180)
+
+right(180)
+
+for i in range (4):
+    forward(40)
+    right(90)
+    forward(40)
+    left(90)
+    forward(40)
+    right(90)
+    forward(40)
+    right(180)
+
+right(180)
+
+forward(40)
+right(90)
+forward(3*40)
+left(90)
+forward(40)
+right(90)
+forward(40)
+left(90)
+forward(3*40)
+right(90)
+forward(40)
+right(180)
+forward(2*40)
+right(90)
+
+for i in range (3):
+    forward(2*40)
+    left(90)
+    forward(40)
+    right(90)
+    forward(40)
+    left(90)
+    forward(2*40)
+
+right(90)
+forward(5*40)
+right(180)
+forward(5*40)
+right(90)
+
+forward(2*40)
+left(90)
+forward(40)
+right(90)
+forward(40)
+left(90)
+forward(2*40)
+left(90)
+forward(40)
+right(90)
+
+for i in range (4):
+    forward(40)
+    left(90)
+    forward(40)
+    right(90)
+    forward(40)
+    left(90)
+    forward(40)
+
+left(90)
+forward(40)
+
+for i in range (4):
+    forward(40)
+    right(90)
+    forward(40)
+    right(180)
+
 # End your code here
 ###
  
